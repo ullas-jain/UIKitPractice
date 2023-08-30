@@ -20,7 +20,7 @@ class ViewController: UIViewController {
             isSponsored: true
         )
         let cardHeight = calculateCardHeight(cardWidth: CardViewController.cardWidth, with: cardAttributes)
-        let cardViewController = CardViewController(cardAttributes: cardAttributes, cardHeight: cardHeight)
+        let cardViewController = CardViewController(cardAttributes: cardAttributes, cardHeight: 480)
         present(cardViewController, animated: true, completion: nil)
     }
     
